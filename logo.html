@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'xs':'360px',
+
+      'sm': '640px',
+
+      'md': '768px',
+                    
+      'lg': '1024px',
+
+      'xl': '1280px',
+
+      '2xl': '1536px',
+    },
+            extend: {
+                fontFamily:{
+                    montserrat:'Montserrat',
+                    poppins:'Poppins'
+                },
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div>
+        <div class="max-w-[800px] absolute bottom-0 right-0 z-[-1] hidden lg:flex">
+            <img src="views/hesbdhbs-removebg.png"  class=" h-auto w-auto z-[-1]" alt="">
+        </div>
+        <div>
+            <nav class="flex items-center bg-white h-20  justify-between px-16">
+                <div class="flex items-center justify-center font-bold text-2xl py-2">
+                    <img src="views/leaf-icon-png-24.jpg" class="h-14" alt="">
+                    <h1>logo</h1>
+                </div>
+                <div class="flex justify-center font-bold gap-16 text-base hidden lg:flex  ">
+                    <p class="underline underline-offset-1">Home</p>
+                    <p class="font-poppins">Collection</p>
+                    <p>Shop</p>
+                    <p>About</p>
+                    <p>Contact</p>
+                </div>
+                <div class="flex justify-center font-semibold gap-10 ">
+                    <p class="hidden lg:flex"><i class="fa-solid fa-bag-shopping "></i></p>
+                    <p><i class="fa-solid fa-user"></i></p>
+                    <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                </div>
+            </nav>
+        </div>
+    
+    
+    <div class=" items-center ">
+        <div class="pl-14 "> <br><br><br><br><br> 
+            <p class="text-8xl font-extrabold font-montserrat ">MONSTERA</p><br>
+            <div class="">
+                <ul class="list-disc">
+                    <li>Monstera plants are native to the tropical regions  of Central  and <br> South America, where they grow as epiphytes in the dense rainforests.</li>
+                    <li>The distinctive holes and splits in the leaves of the Monstera plant, <br> known as fenestrations, serve to increase leaf surface area, allowing <br> the plant to capture more sunlight and thrive in its natural habitat.</li>
+                </ul>
+            </div>
+            <br>
+            <div class="flex items-center ">
+                <button class="bg-lime-900 text-white px-8 py-2 rounded-full text-xl">DISCOVER
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+    <br><br><br>
+    <div class="flex items-center justify-center justify-between gap-2 h-30 max-w-4xl pr-5 ">
+        <div class="flex items-center  ">
+            <img src="views/water-plants-line-black-icon-vector.jpg" class="h-28" alt="">
+          <div>
+            <p class="text-black font-semibold text-lg">Feeding</p>
+            <p class="text-black text-sm"> Don't overwater!</div>
+        </div>
+        <div class="flex items-center  ">
+            <img src="views/light-bulb-icon-isolated-on-white-background-vector-41453891.jpg" class="h-28" alt="">
+            <div>
+                <p class="text-black font-semibold text-lg">Light</p>
+                <p class="text-black text-sm">Plants like sunshine!</p>
+            </div>
+        </div>
+        <div class="flex items-center">
+            <img src="views/7fb0f1323ab946dae6eabd955b088a63.jpg" class="h-28" alt="">
+            <div>
+                <p class="text-black font-semibold text-lg">Care</p>
+                <p class="text-black text-sm">Right pot size <br>matters! </p>
+            </div>
+        </div>
+    </div>
+        </div>
+       
+          
+        
+    </div>
+    </div>
+</body>
+</html>     
